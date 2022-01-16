@@ -1,6 +1,7 @@
 source "https://rubygems.org"
 
 gem "rake", "~> 13.0"
+gem "oauth2", "~> 2.0.0.pre.alpha", :git => "git@github.com:prasanna/oauth2.git"
 
 group :test do
   gem "addressable", "~> 2.3.8", :platforms => %i[jruby ruby_18]
